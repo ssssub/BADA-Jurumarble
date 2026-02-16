@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { PrismaClient } from '@prisma/client';
 import { NextResponse } from 'next/server';
 
@@ -15,4 +16,5 @@ export async function GET() {
     } catch (error) {
         return NextResponse.json({ error: "DB Connection Failed" }, { status: 500 });
     }
+
 }
