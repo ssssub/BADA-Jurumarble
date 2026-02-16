@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-outfit);
+  
+  /* BADA Theme Colors */
+  --color-deep-sea: #020617; /* Slate 950 */
+  --color-neon-blue: #00f0ff;
+  --color-neon-pink: #ff00ff;
+  --color-neon-green: #00ff9d;
+  --color-glass: rgba(255, 255, 255, 0.1);
+}
+
+:root {
+  --background: var(--color-deep-sea);
+  --foreground: #f8fafc; /* Slate 50 */
+}
+
+/* Base Styles */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+/* Custom Utilities for Neon Effect */
+@utility neon-text-blue {
+  text-shadow: 0 0 5px #00f0ff, 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+}
+
+@utility neon-box-blue {
+  box-shadow: 0 0 5px #00f0ff, 0 0 10px #00f0ff, inset 0 0 5px #00f0ff;
+  border: 1px solid #00f0ff;
+}
+
+@utility neon-text-pink {
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+@utility neon-box-pink {
+  box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, inset 0 0 5px #ff00ff;
+  border: 1px solid #ff00ff;
+}
+
+@utility glass-panel {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

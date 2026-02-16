@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "title": "8기 마셔!",
+    "description": "시니어 마셔!!",
+    "createdAt": "2026-02-16T11:28:40.793Z"
+  },
+  {
+    "id": 2,
+    "title": "7기 마셔!",
+    "description": "주니어 마셔!!",
+    "createdAt": "2026-02-16T11:28:56.510Z"
+  },
+  {
+    "id": 3,
+    "title": "02이상 마셔!!",
+    "description": "늘그니들 마셔!!",
+    "createdAt": "2026-02-16T11:29:06.662Z"
+  },
+  {
+    "id": 4,
+    "title": "경영학과 마셔!(이중 포함)",
+    "description": null,
+    "createdAt": "2026-02-16T11:48:38.887Z"
+  },
+  {
+    "id": 5,
+    "title": "통계학과 마셔!(이중 포함)",
+    "description": "ㅇ",
+    "createdAt": "2026-02-16T11:48:57.533Z"
+  },
+  {
+    "id": 8,
+    "title": "국제학부 마셔!(이중 포함)",
+    "description": null,
+    "createdAt": "2026-02-16T11:50:43.417Z"
+  },
+  {
+    "id": 9,
+    "title": "산경공 마셔!(이중 포함)",
+    "description": null,
+    "createdAt": "2026-02-16T11:51:03.948Z"
+  },
+  {
+    "id": 10,
+    "title": "랜덤 게임",
+    "description": null,
+    "createdAt": "2026-02-16T11:51:28.249Z"
+  },
+  {
+    "id": 11,
+    "title": "랜덤 게임",
+    "description": null,
+    "createdAt": "2026-02-16T11:51:58.565Z"
+  },
+  {
+    "id": 12,
+    "title": "랜덤 게임",
+    "description": null,
+    "createdAt": "2026-02-16T11:51:58.565Z"
+  },
+  {
+    "id": 13,
+    "title": "랜덤 게임",
+    "description": null,
+    "createdAt": "2026-02-16T11:51:58.565Z"
+  },
+  {
+    "id": 14,
+    "title": "랜덤 게임",
+    "description": null,
+    "createdAt": "2026-02-16T11:51:58.565Z"
+  },
+  {
+    "id": 15,
+    "title": "랜덤 게임",
+    "description": null,
+    "createdAt": "2026-02-16T11:51:58.565Z"
+  },
+  {
+    "id": 16,
+    "title": "03 이하 마셔!!",
+    "description": null,
+    "createdAt": "2026-02-16T11:52:35.566Z"
+  },
+  {
+    "id": 20,
+    "title": "22 이상 마셔!!",
+    "description": null,
+    "createdAt": "2026-02-16T11:53:54.342Z"
+  },
+  {
+    "id": 21,
+    "title": "회장 마셔!!",
+    "description": null,
+    "createdAt": "2026-02-16T11:54:43.128Z"
+  },
+  {
+    "id": 22,
+    "title": "무인도",
+    "description": null,
+    "createdAt": "2026-02-16T11:55:04.003Z"
+  },
+  {
+    "id": 23,
+    "title": "자취 마셔!",
+    "description": null,
+    "createdAt": "2026-02-16T11:56:31.222Z"
+  },
+  {
+    "id": 24,
+    "title": "랜덤 게임",
+    "description": null,
+    "createdAt": "2026-02-16T11:58:01.189Z"
+  },
+  {
+    "id": 25,
+    "title": "랜덤 게임",
+    "description": null,
+    "createdAt": "2026-02-16T11:58:34.305Z"
+  },
+  {
+    "id": 26,
+    "title": "랜덤 게임",
+    "description": null,
+    "createdAt": "2026-02-16T11:58:43.134Z"
+  },
+  {
+    "id": 27,
+    "title": "랜덤 게임",
+    "description": null,
+    "createdAt": "2026-02-16T11:59:00.727Z"
+  },
+  {
+    "id": 28,
+    "title": "오늘 일찍 갈 사람... 마시던지...",
+    "description": null,
+    "createdAt": "2026-02-16T11:59:57.266Z"
+  },
+  {
+    "id": 29,
+    "title": "너 마셔!(지목)",
+    "description": null,
+    "createdAt": "2026-02-16T12:00:43.257Z"
+  },
+  {
+    "id": 30,
+    "title": "손병호 게임",
+    "description": null,
+    "createdAt": "2026-02-16T12:00:54.748Z"
+  },
+  {
+    "id": 31,
+    "title": "재수 이상 마셔!",
+    "description": null,
+    "createdAt": "2026-02-16T12:01:38.728Z"
+  },
+  {
+    "id": 32,
+    "title": "현역으로 대학 온 사람 마셔!",
+    "description": null,
+    "createdAt": "2026-02-16T12:02:05.133Z"
+  },
+  {
+    "id": 33,
+    "title": "내 양 옆 마셔!!",
+    "description": null,
+    "createdAt": "2026-02-16T12:12:13.715Z"
+  },
+  {
+    "id": 34,
+    "title": "부회장 마셔!!",
+    "description": null,
+    "createdAt": "2026-02-16T12:12:59.066Z"
+  },
+  {
+    "id": 35,
+    "title": "자유 주제",
+    "description": null,
+    "createdAt": "2026-02-16T12:15:38.508Z"
+  },
+  {
+    "id": 36,
+    "title": "자유 주제",
+    "description": null,
+    "createdAt": "2026-02-16T12:15:51.705Z"
+  },
+  {
+    "id": 37,
+    "title": "자유 주제",
+    "description": null,
+    "createdAt": "2026-02-16T12:15:51.705Z"
+  },
+  {
+    "id": 38,
+    "title": "자유 주제",
+    "description": null,
+    "createdAt": "2026-02-16T12:15:51.705Z"
+  },
+  {
+    "id": 39,
+    "title": "자유 주제",
+    "description": null,
+    "createdAt": "2026-02-16T12:15:51.705Z"
+  },
+  {
+    "id": 40,
+    "title": "자유 주제",
+    "description": null,
+    "createdAt": "2026-02-16T12:15:51.705Z"
+  },
+  {
+    "id": 42,
+    "title": "나 마실게",
+    "description": null,
+    "createdAt": "2026-02-16T12:17:01.966Z"
+  }
+]
