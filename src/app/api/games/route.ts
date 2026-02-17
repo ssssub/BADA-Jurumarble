@@ -1,20 +1,31 @@
-export const dynamic = 'force-dynamic';
 import { PrismaClient } from '@prisma/client';
 import { NextResponse } from 'next/server';
 
-const globalForPrisma = global as unknown as { prisma: PrismaClient };
+const prisma = new PrismaClient();
 
-// 명시적으로 설정을 주입하여 초기화 에러 방지
-export const prisma = globalForPrisma.prisma || new PrismaClient(); // Create without arguments to use standard .env configuration in Prisma 6
-
-if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma;
+export const dynamic = 'force-dynamic';
 
 export async function GET() {
-    try {
-        const games = await prisma.drinkingGame.findMany();
-        return NextResponse.json(games);
-    } catch (error) {
-        return NextResponse.json({ error: "DB Connection Failed" }, { status: 500 });
-    }
-
+  try {
+    // DB 연결 시도 전 로그
+    console.log("DB 주소 확인 시도 중...");
+    
+    const games = await prisma.drinkingGame.findMany();
+    
+    return NextResponse.json(games);
+  } catch (error: any) {
+    // 에러 발생 시 상세 내용을 Vercel 로그에 강제로 찍음
+    console.error("❌ Prisma 에러 발생 상세:", {
+      message: error.message,
+      code: error.code,
+      meta: error.meta,
+    });
+    
+    return NextResponse.json(
+      { error: "DB 연결 실패", details: error.message },
+      { status: 500 }
+    );
+  } finally {
+    await prisma.$disconnect();
+  }
 }
